@@ -1,0 +1,63 @@
+<html>
+    <head>
+        <title>Appointment</title>
+        <style>
+            .bg{
+                background-image:url("images/Doc.WEBP");
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+            }
+        </style>
+        <a href="index.html"></a>
+        <a href="Appointments.html"></a>
+        
+    </head>
+    <body>
+        <div ">
+        <h1 style="background-color: rgb(73, 73, 230);"><img src="images/logo.png" alt=""> Medical Appointment Form</h1>
+        </div>
+        
+         
+        <i>"Please make sure you fill out the form below"</i>
+        <hr><br>
+        <form action="" Class="bg rounded form-control">
+            <fieldset>
+                <legend>PERSONAL DETAILS</legend>
+                Patients Last Name <input type="text" placeholder="Enter Your First Name"> &nbsp;&nbsp;
+                Patients First Name<input type="text" placeholder="Enter Your Last Name"><br><br>
+                Phone Number<input type="tel" placeholder="Enter phone number"><br><br>
+                Email <input type="email" placeholder="Enter Email"> <br><br>
+                Contact Preference<br>
+                <input type="radio">Via Email <br>
+                <input type="radio">Via Phone <br><br>
+
+                <input type="number" placeholder="Your Age"><br><br>
+                <label for="">Gender</label><br>
+                <Select>
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                </Select><br><br>
+
+                <label for="">Marital Status</label><br><br>
+                <input type="radio">Single &nbsp; &nbsp;
+                <input type="radio">Married &nbsp;&nbsp;
+                <input type="radio">Divorced &nbsp;&nbsp;
+                <input type="radio">Widowed &nbsp;&nbsp;
+
+            </fieldset><br>
+            <fieldset>
+                <legend>MEDICAL INFORMATION- </legend><br>
+                <label for="">Main Cause For Booking Of Your Appointment</label><br>
+                <textarea name="" id="" cols="30" rows="4" placeholder="Diagnosis and medical issues to be addressed"></textarea>
+            </fieldset><br>
+            <fieldset>
+                <label for="">Appointment Date</label>
+                <input type="date">
+            </fieldset><br>
+
+                <input type="submit" value="Book Appointment">
+        </form>
+    </body>
+</html>

@@ -1,0 +1,488 @@
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" href="dist/css/bootstrap.css">
+        <script src="dist/js/bootstrap.js"></script>
+        <style>
+            .logo{
+
+                border-radius: 15px;
+            }
+
+            img:hover{
+                transform:scale(1,2);
+                transition:4s
+            }
+        </style>
+        <a href="index.html"></a>
+        <a href="Appointments.html"></a>
+        
+    </head>
+    <body>
+        <div class="container-fluid">
+             <!-- section 1  -->
+         <section class="row " >
+            <div class="col-md-12 " >
+                <!-- navbar-expand-md will expand on large devices and collapse an small devices -->
+                <nav class="navbar navbar-expand-md navbar-light bg-primary" >
+                    <!-- Navbar-brand places the logo or the name of the website -->
+                    <a href=""  class="navbar-brand ms-1"><img src="images/logo.png" alt="" width="60px"Height="100%" class="logo"></a>
+                    <!-- navbar-toogle this only shows /visible when the navbar is collapsed -->
+                     <!-- data-bs-toogle="collapse" shows the button will hide/show something -->
+                      <!-- data-bs target="#id" points to which element should expand/collapse -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <!-- navbar-toggle-icon is just to place the hamburger icon -->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse hides content on small device -->
+                     <!-- navbar-collapse alligns the navbar items -->
+                      <!-- id connects to the button so that when clicked it can toogle from expanded/collapse and viceversa -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <!-- navbar-nav ensure correct spacing and allignment -->
+                        <div class="navbar-nav">
+                            <!-- nav-link  styling of individual link and active shows the active link in that page -->
+                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="Appointments.html" class="nav-link">Appointments</a>
+                            <a href="Prescription.html" class="nav-link">Prescriptions</a>
+                            <a href="ContactUs.html" class="nav-link">Contact Us</a>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+
+         </section>
+         <!-- End of section 1 -->
+
+          <!-- Section 2 -->
+
+
+        <section class="row mb-1 mt-1">
+            <div class="col-md-12">
+                <!-- The carousel is the main element that entails the carousel itself, carousel inner and carousel item -->
+                <div class="carousel slide"data-bs-ride="carousel" id="mycarousel">
+                    <!-- The carousel slide enables the carousel items to slide from one to another -->
+                    <!-- Wrapper  encloses the carousel items-->
+                     <div class="carousel-inner" >
+                        <!-- Carousel items this entails the pictures to be potrayed-->
+                         <div class="carousel-item active">
+                            <img src="images/med2 - Copy.webp" alt="med2" class=" w-100 d-block " height="350px">
+                         </div>
+                         <div class="carousel-item">
+                            <img src="images/med4.jpg" alt="med4" class="w-100 d-block" height="350px">
+
+                         </div>
+                         <div class="carousel-item">
+                            <img src="images/med5.webp" alt="med5" class="w-100  d-block" height="350px">
+                         </div>
+                         <div class="carousel-item">
+                            <img src="images/med6.webp" alt="med6" class="w-100 d-block" height="350px">
+                         </div>
+
+                     </div>
+                     <!-- Controllers -->
+                      <!-- The class<carouusel-control-prev> aids in ensuring the previous icon or the next icon to be in line with the carousel for easy navigation by the person using the website  -->
+                        <!-- the class<carousel-control-next-icon creates an icon for easier navigatikon -->
+                      <a href="#mycarousel" data-bs-slide="prev" class="carousel-control-prev">
+                        <span class="carousel-control-prev-icon bg-danger"></span>
+                      </a>
+                      <a href="#mycarousel" data-bs-slide="next" class="carousel-control-next">
+                        <span class="carousel-control-next-icon bg-danger"></span>
+                      </a>
+                </div>
+            </div>
+          </section>
+          <h4>Get Started</h4>
+          <button class="badge bg-dark p-2">Speak To A Doctor</button>
+          <button class="badge bg-primary p-2">Upload A prescription</button>
+          <a href="Appointments.html"></a>
+          <br><hr>
+
+           <h4 style="text-decoration: overline;">Our Services</h4>
+          <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6><b>Health Products and Nutritional Supplements</b></h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/med1.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Entrust us your health for all categoeries of drugs for a better health</p>
+                        <span class="badge bg-danger">All Products @ 20% OFF</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Dermatological Skincare and Beauty Products</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/beauty1.webp" alt="" width="100% " height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Shop with us for exclusive prices for all your dermatological and beauty products</p>
+                        <span class="badge bg-danger"> All Products @ 20% OFF</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Personal Care</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/Personal.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Come and explore a variety of all your essential personal care items all with great dicounts</p>
+                        <span class="badge bg-danger">All Products at 15% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Baby Products</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/babykit.jpg" alt="" width="100%" Height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p>Get a Wide range of discounts on our baby products sector</p>
+                        <span class="badge bg-danger">All Products @ 6% OFF</span>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <hr><br>
+         
+
+            <h4 class="text-dark" style="text-decoration: overline;"><b>Offers Of The Day</b></h4>
+          <!-- Section 3 -->
+            <h4 class="Text-Warning" style="text-decoration: underline;">Health Products & Nutritional Supplements</h4>
+           <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Rx-Saver</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/bluewhite.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Help Patients save on treatments for infections like UTI,s, bronchitis and skin infections</p>
+                        <b class="text-primary">Ksh 300.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Peniccilin</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/penicillin.jpg" alt="" width="100% " height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">Effective against gram-positive and some gram-negative bacteria</p>
+                        <b class=text-primary>Ksh 150.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Acetaminophen</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/redwhite.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">For uti infections, bronchitis and skion infections</p>
+                        <b class="text-primary">Ksh 300.00</b><br>
+                        <span class="badge bg-danger">10% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Amoxillin</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/yellowred.jpg" alt="" width="100%" Height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class=" text-dark">Frequently used for upper respiratory tract infections, ear infections and sinusitic</p>
+                        <b class="text-primary "> Ksh 500.00</b><br>
+                        <span class="badge bg-danger p-2">20% off</span>
+                    </div>
+                </div>
+            </div>
+          </section>
+           <!-- End of Section Three -->
+            <br><hr>
+
+           <!-- Section 4 -->
+            <h4 class="Text-Warning" style="text-decoration: underline;"><b>Beauty & Dermatological products</b></h4>
+             <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Clinique Smart Clinical Repair</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/beauty1.webp" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Aids in clearing your face by clearing it from darkspots for a glowing skin</p>
+                        <b class="text-primary">Ksh 1050.00</b><br>
+                        <span class="badge bg-danger">15% off</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Clarins Paris</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/Beauty2.webp" alt="" width="100% " height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">Helps to keep your face away from persisting marks</p>
+                        <b class=text-primary>Ksh 3250.00</b><br>
+                        <span class="badge bg-danger">25% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Sun Protection Facial Cream</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/sunprotection.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">Keeps your skin away from sunburns due to excessive UV rays</p>
+                        <b class="text-primary">Ksh 5250.00</b><br>
+                        <span class="badge bg-danger">15% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Vitamin C Brightening Cream</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/Beauty5.webp" alt="" width="100%" Height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class=" text-dark">A good cream for all your whitening purposes</p>
+                        <b class="text-primary "> Ksh 4250.00</b><br>
+                        <span class="badge bg-danger p-2">15% off</span>
+                    </div>
+                </div>
+            </div>
+          </section>
+          <!-- End of section 4 -->
+           <hr><br>
+
+          <!-- Section 5-->
+            <h4 class="Text-Warning" style="text-decoration: underline;"><b>Baby Products</b></h4>
+             <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Johnson Baby Package</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/johnson.avif" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">Welcome your newborn baby with a full newborn package with all your desired items</p>
+                        <b class="text-primary">Ksh 3150.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Baby Lotion</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/babylotion.webp" alt="" width="100% " height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">Keeps your baby's skin smooth, radiant and glowing</p>
+                        <b class=text-primary>Ksh 650.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Baby Powder</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/babypowder.webp" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">For protection against diaper rash and foir cosmetic purposes</p>
+                        <b class="text-primary">Ksh 550.00</b><br>
+                        <span class="badge bg-danger">3% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Diapers</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/diapers.avif" alt="" width="100%" Height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class=" text-dark">Keeps your baby comfortable with its elastic stretch bands and its double layered to keep your kid away from wetness</p>
+                        <b class="text-primary "> Ksh 4250.00</b><br>
+                        <span class="badge bg-danger p-2">8% off</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- End of section 5 -->
+           <hr><br>
+
+           <!-- Section 6-->
+            <h4 class="Text-Warning" style="text-decoration: underline;"><b>Personal Care</b></h4>
+             <section class="row">
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Nivea Shaving Gel</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/Shaving Gel.jpg" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class="text-dark">For a clean and smooth shave for men</p>
+                        <b class="text-primary">Ksh 3150.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Sanitary Towels</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/Kotex.webp" alt="" width="100% " height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">No more stains grab a pack to stay fresh and clean</p>
+                        <b class=text-primary>Ksh 650.00</b><br>
+                        <span class="badge bg-danger">5% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Sweatpads</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/sweatpads.webp" alt="" width="100%" height="300px">
+                    </div>
+                    <div class="card-footer">
+                         <p class="text-dark">Keeps your garments free from wetness and toxic stains</p>
+                        <b class="text-primary">Ksh 550.00</b><br>
+                        <span class="badge bg-danger">3% off</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 text-center">
+                <div class="card shadow">
+                    <div class="card-header bg-dark text-light">
+                        <h6>Dettol Antiseptic</h6>
+                    </div>
+                    <div class="card-body">
+                        <img src="images/detol antiseptic.jpg" alt="" width="100%" Height="300px">
+                    </div>
+                    <div class="card-footer">
+                        <p class=" text-dark">Keeps you free from bacteria in cases of injuries, scratches and bruises</p>
+                        <b class="text-primary "> Ksh 4250.00</b><br>
+                        <span class="badge bg-danger p-2">8% off</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+          <!-- End of section 6 -->
+          
+          
+          
+           <!-- Section Footer -->
+              <section class="row bg-primary text-light p-4 mt-3">
+                <div class="col-md-4">
+                    <h4 class="text-center">About us</h4>
+                    <p class="text-dark">We us Yvonne_Medicare focus on all types of medications to ensure that you dont stress and so rather than searching physically for your medications we bring the to you at the vomfort of your home hoping you will entrust us with your health to safeguard you</p>
+                    <p class="text-dark">We also have outlets distributed countrywide if need be for consultation and more.</p>
+                </div>
+
+                <div class="col-md-4">
+                    <h4 class="text-center">Contact Us</h4>
+                    <form action="">
+                        <input type="email" placeholder="Enter your Email..." class="form-control" required><br>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Leave a comment..." class="form-control"></textarea><br>
+                        <input type="submit" value="Send a Message" class="btn btn-danger">
+                    </form>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <h4>Stay Connected</h4>
+                    <a href="https://www.facebook.com"><img src="images/fb.png" alt=""></a>
+                    <a href="https://www.instagram.com"><img src="images/in.png" alt=""></a>
+                    <a href="https://www.x.com"><img src="images/x.png" alt=""></a>
+                    <p class="mt-3 text-dark"> Feel free to communicate with us.For more information,complaints, concerns and enquiries kindly visit us on our social media pages our websites and also you can reach us at our pharmacies distributed countrywide.Thanks again for entrusting your health with us!</p>
+                </div>
+
+              </section>
+              <!-- End of Section Footer -->
+
+        
+       
+            
+
+        </div>
+    </body>
+</html>
