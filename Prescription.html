@@ -21,6 +21,42 @@
         <script src="dist/js/bootstrap.js"></script>
     </head>
     <body class="bg">
+        <div class="container-fluid">
+             <!-- section 1  -->
+         <section class="row " >
+            <div class="col-md-12 " >
+                <!-- navbar-expand-md will expand on large devices and collapse an small devices -->
+                <nav class="navbar navbar-expand-md navbar-light bg-primary" >
+                    <!-- Navbar-brand places the logo or the name of the website -->
+                    <a href=""  class="navbar-brand ms-1"><img src="images/logo.png" alt="" width="60px"Height="100%" class="logo"></a>
+                    <!-- navbar-toogle this only shows /visible when the navbar is collapsed -->
+                     <!-- data-bs-toogle="collapse" shows the button will hide/show something -->
+                      <!-- data-bs target="#id" points to which element should expand/collapse -->
+                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarcollapse">
+                        <!-- navbar-toggle-icon is just to place the hamburger icon -->
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- collapse hides content on small device -->
+                     <!-- navbar-collapse alligns the navbar items -->
+                      <!-- id connects to the button so that when clicked it can toogle from expanded/collapse and viceversa -->
+                    <div class="collapse navbar-collapse" id="navbarcollapse">
+                        <!-- navbar-nav ensure correct spacing and allignment -->
+                        <div class="navbar-nav">
+                            <!-- nav-link  styling of individual link and active shows the active link in that page -->
+                            <a href="index.html" class="nav-link active">Home</a>
+                            <a href="Appointments.html" class="nav-link">Appointments</a>
+                            <a href="Prescription.html" class="nav-link">Prescriptions</a>
+                            <a href="ContactUs.html" class="nav-link">Contact Us</a>
+                        </div>
+
+                    </div>
+
+                </nav>
+            </div>
+
+         </section>
+         <!-- End of section 1 -->
+
          
         
         <h2 style="text-decoration: underline;">Upload Your Prescription</h2>
